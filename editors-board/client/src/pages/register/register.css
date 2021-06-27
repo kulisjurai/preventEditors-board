@@ -1,0 +1,67 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://mapio.net/images-p/108768042.jpg");
+    background-size: cover;
+}
+
+.registerTitle {
+    font-size: 50px;
+    color: white;
+}
+
+.registerForm {
+    background-color: rgba(109, 109, 121, 0.5);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px 70px 30px;
+    border-radius: 15px;
+}
+
+.registerForm>label {
+    margin: 10px 0;
+    color: white;
+}
+
+.registerInput {
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.registerInput:focus {
+    outline: none;
+}
+
+.registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(100, 197, 197);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.registerButton:hover {
+    background-color: rgb(94, 197, 146);
+}
+
+.registerLoginButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+}
