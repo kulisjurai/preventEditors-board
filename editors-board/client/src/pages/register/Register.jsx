@@ -56,7 +56,7 @@ export default function Register() {
           type="text"
           autoComplete="new-password"
           className="registerInput"
-          placeholder="Enter your username..."
+          placeholder="Unesi korisnicko ime..."
           onChange={(e) => setUsername(e.target.value)}
         />
         <label>Email</label>
@@ -64,7 +64,7 @@ export default function Register() {
           type="text"
           autoComplete="new-password"
           className="registerInput"
-          placeholder="Enter your email..."
+          placeholder="Unesi email..."
           onChange={(e) => setEmail(e.target.value)}
         />
         <label>Lozinka</label>
@@ -72,7 +72,7 @@ export default function Register() {
           type="password"
           autoComplete="new-password"
           className="registerInput"
-          placeholder="Enter your password..."
+          placeholder="Unesi lozinku..."
           onChange={(e) => setPassword(e.target.value)}
         />
         <input
@@ -85,14 +85,14 @@ export default function Register() {
         </button>
         {error && (
           <span
-            style={{ color: "red", textAlign: "center", marginTop: "10px" }}
+            style={{ color: "white", textAlign: "center", marginTop: "10px" }}
           >
             Korisničko ime ili email vec postoji!
           </span>
         )}
         {lengthValidation && (
           <span
-            style={{ color: "red", textAlign: "center", marginTop: "10px" }}
+            style={{ color: "white", textAlign: "center", marginTop: "10px" }}
           >
             Korisnicko ime ne smije biti krace od 6 karaktera i ne smije imati
             praznine
@@ -100,14 +100,14 @@ export default function Register() {
         )}
         {mailValidation && (
           <span
-            style={{ color: "red", textAlign: "center", marginTop: "10px" }}
+            style={{ color: "white", textAlign: "center", marginTop: "10px" }}
           >
             Niste unjeli valjanu email adresu
           </span>
         )}
         {passValidation && (
           <span
-            style={{ color: "red", textAlign: "center", marginTop: "10px" }}
+            style={{ color: "white", textAlign: "center", marginTop: "10px" }}
           >
             Lozinka mora sadrzvati vise od 6 karaktera
           </span>
