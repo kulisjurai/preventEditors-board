@@ -41,7 +41,7 @@ export default function Login() {
           autoComplete="new-password"
           name="username-input"
           className="loginInput"
-          placeholder="Unesite korisnicko ime..."
+          placeholder="Unesi korisnicko ime..."
           ref={userRef}
         />
         <label>Lozinka</label>
@@ -50,7 +50,7 @@ export default function Login() {
           name="password-input"
           autoComplete="new-password"
           className="loginInput"
-          placeholder="Unesite lozinku..."
+          placeholder="Unesi lozinku..."
           ref={passwordRef}
         />
         <button className="loginButton" type="submit" disabled={isFetching}>
@@ -60,7 +60,7 @@ export default function Login() {
           <span
             style={{ color: "red", textAlign: "center", marginTop: "10px" }}
           >
-            Korisničko ime ili email vec postoji!
+            Pogresno ste unjeli korisnicko ime ili lozinku
           </span>
         )}
       </form>
