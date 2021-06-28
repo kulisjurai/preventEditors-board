@@ -12,6 +12,7 @@
     height: 300px;
     border-radius: 5px;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .singlePostTitle {
@@ -63,4 +64,32 @@
     margin-left: 20px;
     font-size: 30px;
     font-weight: 600;
+}
+
+.singlePostDescInput {
+    width: 72vw;
+    height: 50vh;
+    overflow-y: scroll;
+}
+
+.singlePostButton {
+    width: 200px;
+    background-color: teal;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+.bottom {
+    display: flex;
+    width: 70vw;
+    justify-content: flex-end;
+}
+
+.singlePostTitleInput {
+    margin-bottom: 15px;
+    width: 30vw;
 }
