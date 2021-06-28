@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("https://i.pinimg.com/originals/54/ea/2b/54ea2b6c82c32be222eb79cbc25eb138.jpg");
+    background-image: url("https://i.pinimg.com/originals/d0/8b/b6/d08bb67c87540edbf7f444765dd913b0.jpg");
     background-size: cover;
 }
 
@@ -18,7 +18,7 @@
     margin-top: 20px;
     display: flex;
     flex-direction: column;
-    background: linear-gradient( rgba(224, 224, 224, 0.8), rgba(219, 216, 216, 0.8));
+    background: linear-gradient( rgba(224, 224, 224, 0.8), rgba(192, 190, 190, 0.8));
     padding: 30px 30px 70px 30px;
 }
 
