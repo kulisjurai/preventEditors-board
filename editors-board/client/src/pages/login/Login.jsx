@@ -58,9 +58,9 @@ export default function Login() {
         </button>
         {error && (
           <span
-            style={{ color: "red", textAlign: "center", marginTop: "10px" }}
+            style={{ color: "black", textAlign: "center", marginTop: "10px" }}
           >
-            Pogresno ste unjeli korisnicko ime ili lozinku
+            Pogrešno ste unjeli korisničko ime ili lozinku
           </span>
         )}
       </form>
