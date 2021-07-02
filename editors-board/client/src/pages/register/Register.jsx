@@ -94,8 +94,7 @@ export default function Register() {
           <span
             style={{ color: "white", textAlign: "center", marginTop: "10px" }}
           >
-            Korisnicko ime ne smije biti krace od 6 karaktera i ne smije imati
-            praznine
+            Korisničko ime ne smije biti kraće od 6 karaktera
           </span>
         )}
         {mailValidation && (
@@ -109,7 +108,7 @@ export default function Register() {
           <span
             style={{ color: "white", textAlign: "center", marginTop: "10px" }}
           >
-            Lozinka mora sadrzvati vise od 6 karaktera
+            Lozinka ne smije sadržvati manje od 6 karaktera
           </span>
         )}
       </form>
