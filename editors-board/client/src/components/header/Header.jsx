@@ -5,7 +5,7 @@ export default function Header() {
     <div className="header">
       <div className="headerTitles">
         <span className="headerTitleSm">
-          Sve o bh planinama, planinarskim rutam i planinarskoj opremi
+          Sve o bh planinama, planinarskim rutama i planinarskoj opremi
         </span>
       </div>
       <img
